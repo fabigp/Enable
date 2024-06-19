@@ -15,10 +15,9 @@ Ser parte de una comunidad ofrece seguridad y comprensión, donde los sentimient
 
 Por todo esto surge Enable . . .
 ![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/08accd7a-5183-4642-a5c3-1d515758b788)
-![WhatsApp Image 2024-06-19 at 10 20 23](https://github.com/fabigp/Enable/assets/124640504/f5d98bb8-7259-4fe5-9ce2-325f991824b2)
-![WhatsApp Image 2024-06-19 at 10 20 49](https://github.com/fabigp/Enable/assets/124640504/04195602-814d-446e-af85-7c405cbb40f4)
-![WhatsApp Image 2024-06-19 at 10 21 06](https://github.com/fabigp/Enable/assets/124640504/fe7430c4-95fe-4cdd-9ae7-3615299604f4)
-![WhatsApp Image 2024-06-19 at 10 21 36](https://github.com/fabigp/Enable/assets/124640504/ecba3769-bd68-4af6-b27e-de33f9f828d2)
-![WhatsApp Image 2024-06-19 at 10 21 55](https://github.com/fabigp/Enable/assets/124640504/022f7c1f-af6c-4bf5-aee5-ccae3a3a5552)
-![WhatsApp Image 2024-06-19 at 10 22 29](https://github.com/fabigp/Enable/assets/124640504/0663f0df-8f1f-42ff-9f51-c6093c28e804)
-![WhatsApp Image 2024-06-19 at 10 22 48](https://github.com/fabigp/Enable/assets/124640504/874531ed-7ccd-4f5c-b814-f5b11784d5e3)
+![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/94b1cfd8-da2a-4a77-a156-c8e37c03add1)
+![Presentación Hackaton (1)](https://github.com/fabigp/Enable/assets/124640504/62616e6a-d144-43c2-bf69-660edee1a12f)
+![Presentación Hackaton (2)](https://github.com/fabigp/Enable/assets/124640504/f5d71321-d582-48bf-a2e9-2ecb1620eb05)
+![Presentación Hackaton (3)](https://github.com/fabigp/Enable/assets/124640504/a0e1d22a-fa54-458d-b095-833dacacef5c)
+![Presentación Hackaton (4)](https://github.com/fabigp/Enable/assets/124640504/ae45eb08-8584-4c31-9fdc-d7e140c688b1)
+
