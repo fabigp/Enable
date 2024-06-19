@@ -8,16 +8,37 @@ Algunos desafíos compartidos más comunes en personas con discapacidad incluyen
 # Problemática
 Las personas con discapacidad y sus cuidadores carecen de un espacio virtual dedicado donde puedan intercambiar experiencias y conocimientos de manera segura y libre con otras personas en situaciones similares. Esta falta de una comunidad virtual adecuada limita su acceso a apoyo emocional, recursos útiles y la posibilidad de compartir aprendizajes diarios esenciales para su bienestar y desarrollo.
 
-#Contexto
+# Contexto
 Pertenecer a una comunidad mejora la salud mental (BMC Public Health, 2017)
 Participar en comunidad mejora la calidad de vida para personas con discapacidad y sus cuidadores    (Claro, s.f.)
 Ser parte de una comunidad ofrece seguridad y comprensión, donde los sentimientos y experiencias de uno son validados (All Kids Bike, s.f.)
 
 Por todo esto surge Enable . . .
+
+# Desarrollo
+
+Se empleó el stack FARM en el desarrollo del proyecto:
+
+Diseño de la interfaz: Se utilizaron HTML y CSS para la estructura y el estilo.
+Funcionalidad del frontend: Se implementó usando JavaScript vanilla y React.
+Backend: Se desarrolló con FastAPI utilizando Python.
+Base de datos: Se utilizó MongoDB.
+Inteligencia artificial: La implementación del sistema de reconocimiento de mensajes de odio se realizó con Python.
+
+
+
+# Interfaz
+ 
 ![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/08accd7a-5183-4642-a5c3-1d515758b788)
-![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/94b1cfd8-da2a-4a77-a156-c8e37c03add1)
-![Presentación Hackaton (1)](https://github.com/fabigp/Enable/assets/124640504/62616e6a-d144-43c2-bf69-660edee1a12f)
-![Presentación Hackaton (2)](https://github.com/fabigp/Enable/assets/124640504/f5d71321-d582-48bf-a2e9-2ecb1620eb05)
-![Presentación Hackaton (3)](https://github.com/fabigp/Enable/assets/124640504/a0e1d22a-fa54-458d-b095-833dacacef5c)
-![Presentación Hackaton (4)](https://github.com/fabigp/Enable/assets/124640504/ae45eb08-8584-4c31-9fdc-d7e140c688b1)
+![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/b18c404a-8435-43d0-bf79-708230e00b42)
+![Presentación Hackaton (1)](https://github.com/fabigp/Enable/assets/124640504/5c9f868e-adf4-4b04-8ec2-3b1de8c6727d)
+![8](https://github.com/fabigp/Enable/assets/124640504/6fd29445-d958-42c8-b009-2cf8fe2bb4cf)
+![9](https://github.com/fabigp/Enable/assets/124640504/8f4af005-33dc-47d0-9f93-59c9c742103f)
+![10](https://github.com/fabigp/Enable/assets/124640504/608bc041-00fa-4c20-ab7c-695f65b7bb13)
+![Presentación Hackaton (5)](https://github.com/fabigp/Enable/assets/124640504/806c07a1-f6bd-48b2-b239-a15421ed6349)
+
+
+
+
+
 
