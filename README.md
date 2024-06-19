@@ -42,6 +42,14 @@ Inteligencia artificial: La implementación del sistema de reconocimiento de men
 ![Presentación Hackaton (5)](https://github.com/fabigp/Enable/assets/124640504/806c07a1-f6bd-48b2-b239-a15421ed6349)
 
 
+# Base de datos
+
+
+
+# Inteligencia Artificial
+
+![WhatsApp Image 2024-06-19 at 12 42 04](https://github.com/fabigp/Enable/assets/124640504/c4eda919-107f-4d63-8ece-ce64f3996c70)
+![WhatsApp Image 2024-06-19 at 12 42 25](https://github.com/fabigp/Enable/assets/124640504/400bb257-5f27-4a84-9731-76bd5917d9c9)
 
 
 
