@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*Normalización standar*/
+
+/* 
+    COLOR-verde: #25A450
+    COLOR-rojo: #DE3122
+    COLOR-amarillo: #EE971C
+    COLOR-azul: #0477B9
+    
+*/
+
+:root{
+    /* Colores */
+    --color_prin: #DC8782;
+    --color_sec: #860700;
+    --color_tree: #F5CE8F;
+    --color_four: #D39937;
+    --white: black;
+    --black: rgb(234, 219, 219);
+    --responsive_text: clamp(12px,6vw,16px);
+
+}
+
+body{
+    background-color: var(--black);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+    list-style: none;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.img-prin{
+    width: 98.9vw;
+}
+
+.botones{
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 1em 33em 1em 36em;
+    margin-top: -12em;
+}
+
+.botones-bot{
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    background-color:var(--color_four);
+}
+
+.botones-on{
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+}

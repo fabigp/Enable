@@ -1,0 +1,135 @@
+
+:root{
+    --color_prin: #DC8782;
+    --color_sec: #860700;
+    --color_tree:#5B969C;
+    --color_four: #D39937;
+    --white: black;
+    --black: rgb(234, 219, 219);
+    --responsive_text: clamp(12px,6vw,16px);
+}
+
+.main{
+    display: flex;
+    margin-top: 1.6em;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em 2em 0em 2em;
+    margin-bottom: -3.2em;
+    height: 250vh;
+    background-color: var(--color_tree);
+}
+
+.sha{
+    color: var(--color_tree);
+    font-size: 2em;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+.perfil-img{
+    max-width: 60vw;
+    margin-left: 15%;
+    margin-top: -5em;
+}
+
+.menu-img{
+    max-width: 200px;
+    border-radius: 150px;
+    margin-left: 46%;
+    margin-top: -8em;
+}
+
+
+.perfil-salsa{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 18em 1em 18em;
+    align-items: center;
+}
+
+.perfil-buton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color_tree);
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.perfil-star{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.perfil-h2{
+    font-size: 1.4em;
+}
+
+.tam{
+    font-size: 1.6em;
+}
+
+.perfil-h3{
+    font-size: 0.7em;
+}
+
+.perfil-ame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.pos{
+    margin: 3em;
+}
+
+.post-imga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s{
+    margin: 1em;
+    border-radius: 50px;
+}
+
+.lapiz{
+    border-radius: 50px;
+    max-width: 350px;
+    max-height: 200px;
+    padding: 2em;
+    position: fixed;
+    background-color: #DC8782;
+    top: 30em;
+    left: 80em;
+}
+
+.ia{
+    box-shadow: 1px 1px 1px 1px var(--color_tree);
+}
+
+.blue{
+    color: #89dfe9;
+}
+
+.yellow{
+    color: var(--color_four);
+}
+
+.boton{
+    background-color: var(--color_prin);
+    border: none;
+}

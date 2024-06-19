@@ -1,0 +1,49 @@
+
+:root{
+    /* Colores */
+    --color_prin: #F5CE8F;
+    --color_sec: #860700;
+    --color_tree: #DC8782 ;
+    --color_four: #D39937;
+    --white: black;
+    --black: rgb(234, 219, 219);
+    --responsive_text: clamp(12px,6vw,16px);
+}
+
+
+.body{
+    background-color: #F5CE8F;
+}
+
+section{
+    background-color: var(--black);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+
+.ini-h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.div-ini{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input{
+    border-radius: 20px;
+    border: none;
+    padding: 0.7em;
+}
+
+.ini-boton{
+    border-radius: 20px;
+    border: none;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: var(--color_four);
+}

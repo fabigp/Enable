@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Enable</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-h1">enable</h1>
+        <input class="header-buscador" type="search">
+        <div class="header-botones">
+            <a class="header-h2" href="inicio.html">Log out</a>
+        </div>
+    </header>
+
+    <section class="barra">
+      <div class="barra-perfil">
+        <img class="barra-im" src="https://randomuser.me/api/portraits/women/63.jpg" alt="foto-perfil" id="userAvatar">
+        <div class="barra-info">
+            <a href="perfil.html"><p class="barra-username">¡Hola, <span id="usernamePlaceholder"></span>!</p></a>
+            <p class="barra-h3" id="userRole">Tag</p>
+        </div>
+    </div>
+    
+
+        <div class="barra-colaboradores">
+            <h2 class="barra-h2">Posts relevantes</h2>
+            <div class="barra-top">
+                <img class="barra-post" src="autismo.jpg" alt="post1">
+                <img class="barra-post" src="docs.jpg" alt="post1">
+                <img class="barra-post" src="casadelsol.jpg" alt="post1">
+            </div>
+        </div>
+
+        <div class="barra-colaboradores">
+            <h2 class="barra-h2">Top Colaboradores</h2>
+            <div class="barra-top">
+                <img class="barra-img" src="https://randomuser.me/api/portraits/men/62.jpg" alt="foto-perfil">
+                <img class="barra-img" src="https://randomuser.me/api/portraits/women/63.jpg" alt="foto-perfil">
+                <img class="barra-img" src="https://randomuser.me/api/portraits/men/53.jpg" alt="foto-perfil">
+            </div>
+        </div>
+
+
+        <div class="barra-colaboradores">
+            <h2 class="barra-h2">Top Asociaciones</h2>
+            <div class="barra-top">
+                <img class="barra-img" src="images.jpg" alt="fundacion1">
+                <img class="barra-img" src="casadelsol.jpg" alt="fundacion1">
+                <img class="barra-img" src="android-chrome-512x512.png" alt="fundacion1">
+            </div>
+        </div>
+
+        <i class="fa-solid fa-bars"></i>
+    </section>
+
+    <main class="main">
+        
+        <section id="editor" class="editor" popover>
+            <section>
+                <div class="wp-webdeasy-comment-editor">
+                    <div class="toolbar">
+                      <div class="line">
+                        <div class="box">
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="bold"
+                            data-tag-name="b"
+                            title="Bold"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/bold.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="italic"
+                            data-tag-name="i"
+                            title="Italic"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/italic.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="underline"
+                            data-tag-name="u"
+                            title="Underline"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/underline.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="strikeThrough"
+                            data-tag-name="strike"
+                            title="Strike through"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/30/000000/strikethrough.png"
+                            />
+                          </span>
+                        </div>
+                        <div class="box">
+                          <span class="editor-btn icon has-submenu">
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/align-left.png"
+                            />
+                            <div class="submenu">
+                              <span
+                                class="editor-btn icon"
+                                data-action="justifyLeft"
+                                data-style="textAlign:left"
+                                title="Justify left"
+                              >
+                                <img
+                                  src="https://img.icons8.com/fluency-systems-filled/48/000000/align-left.png"
+                                />
+                              </span>
+                              <span
+                                class="editor-btn icon"
+                                data-action="justifyCenter"
+                                data-style="textAlign:center"
+                                title="Justify center"
+                              >
+                                <img
+                                  src="https://img.icons8.com/fluency-systems-filled/48/000000/align-center.png"
+                                />
+                              </span>
+                              <span
+                                class="editor-btn icon"
+                                data-action="justifyRight"
+                                data-style="textAlign:right"
+                                title="Justify right"
+                              >
+                                <img
+                                  src="https://img.icons8.com/fluency-systems-filled/48/000000/align-right.png"
+                                />
+                              </span>
+                              <span
+                                class="editor-btn icon"
+                                data-action="formatBlock"
+                                data-style="textAlign:justify"
+                                title="Justify block"
+                              >
+                                <img
+                                  src="https://img.icons8.com/fluency-systems-filled/48/000000/align-justify.png"
+                                />
+                              </span>
+                            </div>
+                          </span>
+                          <span
+                            class="editor-btn icon"
+                            data-action="insertOrderedList"
+                            data-tag-name="ol"
+                            title="Insert ordered list"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/numbered-list.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon"
+                            data-action="insertUnorderedList"
+                            data-tag-name="ul"
+                            title="Insert unordered list"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/bulleted-list.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon"
+                            data-action="outdent"
+                            title="Outdent"
+                            data-required-tag="li"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/outdent.png"
+                            />
+                          </span>
+                          <span class="editor-btn icon" data-action="indent" title="Indent">
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/indent.png"
+                            />
+                          </span>
+                        </div>
+                        <div class="box">
+                          <span
+                            class="editor-btn icon"
+                            data-action="insertHorizontalRule"
+                            title="Insert horizontal rule"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/horizontal-line.png"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                      <div class="line">
+                        <div class="box">
+                          <span class="editor-btn icon smaller" data-action="undo" title="Undo">
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/undo--v1.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon"
+                            data-action="removeFormat"
+                            title="Remove format"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/remove-format.png"
+                            />
+                          </span>
+                        </div>
+                        <div class="box">
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="createLink"
+                            title="Insert Link"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/add-link.png"
+                            />
+                          </span>
+                          <span
+                            class="editor-btn icon smaller"
+                            data-action="unlink"
+                            data-tag-name="a"
+                            title="Unlink"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/delete-link.png"
+                            />
+                          </span>
+                        </div>
+                        <div class="box">
+                          <span
+                            class="editor-btn icon"
+                            data-action="toggle-view"
+                            title="Show HTML-Code"
+                          >
+                            <img
+                              src="https://img.icons8.com/fluency-systems-filled/48/000000/source-code.png"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-area">
+                      <div class="visuell-view" contenteditable></div>
+                      <textarea class="html-view"></textarea>
+                    </div>
+                  </div>
+                <p>
+                    <button type="submit" class="button">Post</button>
+                </p>
+            </section>
+        </section>
+
+        <section class="section-vert" id = "vert1">
+            <!-- Aquí se insertarán los posts dinámicamente -->
+        </section>
+
+        <section class="section-vert" id = "vert2">
+          <!-- Aquí se insertarán los posts dinámicamente -->
+      </section>
+
+      <section class="section-vert" id = "vert3">
+        <!-- Aquí se insertarán los posts dinámicamente -->
+    </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/98b3406fa1.js" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+    // Función para crear un elemento de post
+    const createPostElement = (post) => {
+        return `
+            <section class="section-post">
+                <div class="section-user">
+                    <div class="section-userdata">
+                        <img class="section-img" src="https://randomuser.me/api/portraits/men/62.jpg"" alt="user">
+                        <p class="section-text">@${post.author}</p>
+                    </div>
+                    <div class="section-star">
+                        <i class="fa-solid fa-star star-color"></i>
+                        <p class="section-text">${post.title}</p>
+                    </div>
+                </div>
+
+                
+                <div class="section-coment">
+                    ${post.body}
+                    <button popoverTarget="mas" class="section-vermas">Ver más...</button>
+                </div>
+
+                <div class="section-reacciones">
+                    <input class="section-inpu" type="text">
+                    <div>
+                        <i class="fa-solid fa-bookmark"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                </div>
+            </section>
+        `;
+    };
+
+    // Función para obtener posts y insertar en las secciones
+    const fetchPosts = async () => {
+        try {
+            const response = await fetch('http://127.0.0.1:8000/posts');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const posts = await response.json();
+            console.log(posts);
+
+            // Selección de las secciones donde se insertarán los posts
+            const section1 = document.getElementById('vert1');
+            const section2 = document.getElementById('vert2');
+            const section3 = document.getElementById('vert3');
+
+            // Insertar los posts en las secciones correspondientes
+            posts.forEach((post, index) => {
+                if (index % 3 === 0) {
+                    section1.insertAdjacentHTML('beforeend', createPostElement(post));
+                } else if (index % 3 === 1) {
+                    section2.insertAdjacentHTML('beforeend', createPostElement(post));
+                } else if (index % 3 === 2) {
+                    section3.insertAdjacentHTML('beforeend', createPostElement(post));
+                }
+            });
+
+        } catch (error) {
+            console.error('Error fetching posts:', error);
+        }
+    };
+
+    // Llamar a la función para obtener posts cuando la página carga
+    fetchPosts();
+});
+
+  
+
+  </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const logoutButton = document.querySelector('.header-h2');
+
+      logoutButton.addEventListener('click', () => {
+          // Eliminar el token de autenticación (ejemplo usando localStorage)
+          localStorage.removeItem('authToken');
+
+          // Redirigir al usuario a la página de login
+          window.location.href = 'iniciosesion.html'; // Cambia 'login.html' por tu página de inicio de sesión
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      // Verificar si existe el token de autenticación en localStorage
+      const authToken = localStorage.getItem('authToken');
+
+      // Si no existe el token, redirigir a la página de login
+      if (!authToken) {
+          window.location.href = 'iniciosesion.html';
+      }
+      
+      // Código adicional para tu aplicación que requiere autenticación
+      // Aquí puedes continuar con la lógica de tu aplicación una vez autenticado
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+      // Verificar si existe el token de autenticación en localStorage
+      const authToken = localStorage.getItem('authToken');
+
+      // Si no existe el token, redirigir a la página de login
+      if (!authToken) {
+          window.location.href = 'iniciosesion.html';
+          return; // Salir de la función si no hay token
+      }
+
+      try {
+          // Hacer la solicitud GET a la API para obtener la información del usuario
+          const response = await fetch(`http://127.0.0.1:8000/user/${authToken}`);
+
+          if (!response.ok) {
+              throw new Error('Failed to fetch user data');
+          }
+
+          const userData = await response.json();
+
+          // Actualizar los elementos HTML con la información del usuario
+          const userAvatarElement = document.getElementById('userAvatar');
+          const usernamePlaceholderElement = document.getElementById('usernamePlaceholder');
+          const userRoleElement = document.getElementById('userRole');
+
+          // Suponiendo que userData contiene la estructura necesaria del usuario
+          
+          usernamePlaceholderElement.textContent = userData.username; // Actualizar con el nombre de usuario
+          userRoleElement.textContent = userData.badges[0]; 
+
+      } catch (error) {
+          console.error('Error fetching user data:', error);
+          // Manejar el error adecuadamente, por ejemplo, mostrando un mensaje al usuario
+      }
+  });
+</script>
+
+
+  
+</body>
+</html>

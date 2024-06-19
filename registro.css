@@ -1,0 +1,118 @@
+
+:root{
+    /* Colores */
+    --color_prin: #DC8782;
+    --color_sec: #860700;
+    --color_tree: #F5CE8F;
+    --color_four: #D39937;
+    --white: black;
+    --black: rgb(234, 219, 219);
+    --responsive_text: clamp(12px,6vw,16px);
+
+}
+
+.body{
+    background-color: #F5CE8F;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+    background-color: var(--black);
+    background-color: var(--black);
+    max-width: 1000px;
+    margin: 2em auto;
+    justify-content: space-between;
+}
+
+.card-div{
+    display: flex;
+    gap: 6em;
+    justify-content: space-between;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card-text{
+    font-size: 0.7em;
+}
+
+.card-img{
+    max-width: 300px;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card-nom{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding-right: 3em;
+    justify-content: space-between;
+}
+
+.card-data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+}
+
+.card-h2{
+    font-size: 0.9em;
+}
+
+.card-h1{
+    font-size: 1.5em;
+    text-align: left;
+}   
+
+.input{
+    border-radius: 20px;
+    border: none;
+    padding: 0.5em;
+}
+
+.input1{
+    max-width: 95px;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5em;
+}
+
+.card-etiqueta{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.card-duo{
+    display: flex;
+    gap: 1em;
+}
+
+.tx{
+    padding-top: 1em;
+}
+
+.reg-bot{
+    border: none;
+    padding: 1em;
+    background-color: #D39937;
+    border-radius: 20px;
+}
+
+.reg-a{
+    text-align: end;
+}

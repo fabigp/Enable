@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iniciosesion.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Login</title>
+</head>
+<body class = "body">
+    <section>
+        <h2 class="ini-h2">!Hola de nuevo!</h2>
+    <form id="loginForm">
+        <div class  = "div-ini">
+            <h3 class="ini-h3">Nombre de usuario</h3>
+            <input  class="input" type="text" id="username" required>
+      
+            <h3 class="ini-h3">Contraseña</h3>
+            <input class="input" type="password" id="password" required>
+        </div>
+        <button  class="ini-boton" type="submit">Login</button>
+    </form>
+    </section>
+
+    <script>
+        function saveAuthToken(token) {
+        // Puedes almacenar el token donde sea adecuado para tu aplicación
+        localStorage.setItem('authToken', token); // Ejemplo: almacenar en localStorage
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginForm = document.getElementById('loginForm');
+
+            loginForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+
+                try {
+                    const response = await fetch('http://127.0.0.1:8000/login/', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ username, password })
+                    });
+
+                    if (response.ok) {
+                        const data = await response.json();
+                        saveAuthToken(data.id); // Aquí se asume que saveAuthToken es una función global que guarda el token
+                        alert('Login successful');
+                        window.location.href = 'index.html'; 
+                    } else {
+                        console.error('Login failed');
+                        alert('Username or password is incorrect');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Error occurred during login');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
