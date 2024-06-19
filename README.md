@@ -48,6 +48,10 @@ Inteligencia artificial: La implementación del sistema de reconocimiento de men
 
 # Inteligencia Artificial
 
+La implementacion de Inteligencia Artificial al proyecto se basa en la deteccion de discurso de odio en comentarios o en post, se uso un modelo entrenado y tomado de Hugging Face, que esta altamente entrenado para poder detectar esta clase de comentarios ofensivos.
+
+Dado que el modelo esta entrenado para detectar comentarios en ingles, usamos un modulo traductor, para poder utilizar comentarios en el lenguaje español.
+
 ![WhatsApp Image 2024-06-19 at 12 42 04](https://github.com/fabigp/Enable/assets/124640504/c4eda919-107f-4d63-8ece-ce64f3996c70)
 ![WhatsApp Image 2024-06-19 at 12 42 25](https://github.com/fabigp/Enable/assets/124640504/400bb257-5f27-4a84-9731-76bd5917d9c9)
 
