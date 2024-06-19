@@ -15,7 +15,6 @@ Ser parte de una comunidad ofrece seguridad y comprensión, donde los sentimient
 
 Por todo esto surge Enable . . .
 ![Presentación Hackaton](https://github.com/fabigp/Enable/assets/124640504/08accd7a-5183-4642-a5c3-1d515758b788)
-![WhatsApp Image 2024-06-19 at 10 19 29](https://github.com/fabigp/Enable/assets/124640504/bb73d081-89b8-4218-a282-e13d4c3565cd)
 ![WhatsApp Image 2024-06-19 at 10 20 23](https://github.com/fabigp/Enable/assets/124640504/f5d98bb8-7259-4fe5-9ce2-325f991824b2)
 ![WhatsApp Image 2024-06-19 at 10 20 49](https://github.com/fabigp/Enable/assets/124640504/04195602-814d-446e-af85-7c405cbb40f4)
 ![WhatsApp Image 2024-06-19 at 10 21 06](https://github.com/fabigp/Enable/assets/124640504/fe7430c4-95fe-4cdd-9ae7-3615299604f4)
