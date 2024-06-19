@@ -44,6 +44,8 @@ Inteligencia artificial: La implementación del sistema de reconocimiento de men
 
 # Base de datos
 
+![WhatsApp Image 2024-06-19 at 13 23 15](https://github.com/fabigp/Enable/assets/124640504/12a778da-a407-4553-8ede-8cb98b424e0c)
+![WhatsApp Image 2024-06-19 at 13 24 11](https://github.com/fabigp/Enable/assets/124640504/1defaf91-495e-49db-a562-ff68f66b9ad6)
 
 
 # Inteligencia Artificial
