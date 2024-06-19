@@ -20,9 +20,13 @@ Por todo esto surge Enable . . .
 Se empleó el stack FARM en el desarrollo del proyecto:
 
 Diseño de la interfaz: Se utilizaron HTML y CSS para la estructura y el estilo.
+
 Funcionalidad del frontend: Se implementó usando JavaScript vanilla y React.
+
 Backend: Se desarrolló con FastAPI utilizando Python.
+
 Base de datos: Se utilizó MongoDB.
+
 Inteligencia artificial: La implementación del sistema de reconocimiento de mensajes de odio se realizó con Python.
 
 
